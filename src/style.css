@@ -6,6 +6,7 @@
 
 html {
   font-family: 'Open Sans', sans-serif;
+  background-color: rgb(247, 231, 243);
 }
 
 .container {
@@ -21,9 +22,6 @@ header {
   margin-top: 4rem;
 }
 
-.logo {
-  width: 10rem;
-  height: 10rem;
-  background-image: url(./img/rocket.svg);
-  background-size: contain;
+h1 {
+  text-transform: uppercase;
 }

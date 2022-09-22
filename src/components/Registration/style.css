@@ -1,0 +1,62 @@
+.panel {
+  border-radius: 24px;
+  box-shadow: 10px 10px 5px rgb(208, 212, 214);
+  background-color: white;
+  padding: 24px;
+  position: relative;
+  margin-top: 48px;
+}
+
+.user {
+  width: 35%;
+  border-radius: 50%;
+  border-color: rgb(240, 24, 157);
+  border-width: 4px;
+  border-style: solid;
+  padding: 20px 16px;
+  background-color: rgb(243, 210, 235);
+  position: absolute;
+  top: -48px;
+  left: 140px;
+}
+
+form {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 96px;
+}
+
+.input_wrapper {
+  align-self: center;
+  margin: 12px 0px;
+}
+
+input {
+  border-radius: 12px;
+  padding: 8px;
+  font-size: 18px;
+}
+
+button {
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  text-transform: uppercase;
+  background-color: rgb(240, 24, 157);
+  color: white;
+  font-size: 18px;
+  font-weight: 500;
+  padding: 8px 42px;
+}
+
+button:disabled {
+  cursor: not-allowed;
+  background-color: grey;
+}
+
+.form_error {
+  color: red;
+  font-size: 14px;
+}
