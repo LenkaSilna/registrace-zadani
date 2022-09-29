@@ -26,7 +26,7 @@ export const Registration = () => {
 
     const handleSubmit = (event) => {
         event.preventDefault()
-        // todo - not a good idea to log passwords, exercise only
+        // todo - not a good idea to log passwords, exercise requirements only
         console.log(user)
     }
 
